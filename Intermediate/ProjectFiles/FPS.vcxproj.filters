@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\0606.txt" />
+    <None Include="..\..\0607.txt" />
+    <None Include="..\..\0608.txt" />
+    <None Include="..\..\0609.txt" />
+    <None Include="..\..\0610.txt" />
+    <None Include="..\..\0613.txt" />
+    <None Include="..\..\0614.txt" />
+    <None Include="..\..\0615.txt" />
+    <None Include="..\..\0616.txt" />
+    <None Include="..\..\0617.txt" />
+    <None Include="..\..\0618.txt" />
+    <None Include="..\..\0622.txt" />
+    <None Include="..\..\0624.txt" />
+    <None Include="..\..\0702.txt" />
+    <None Include="..\..\Aim.txt" />
+    <None Include="..\..\BeginPlay.txt" />
+    <None Include="..\..\Interact.txt" />
+    <None Include="..\..\보스AI.txt" />
+    <None Include="..\..\블렌드뎁스.txt" />
+    <None Include="..\..\애니메이션커브.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultNiagara.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\FPS">
+      <UniqueIdentifier>{50532BBC-C583-3744-9249-9A843E673DCF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\CHUD.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\CHUD.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FPS\FPS.Build.cs">
+      <Filter>Source\FPS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPS\FPS.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\FPS.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\FPSGameModeBase.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\FPSGameModeBase.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Global.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Actions">
+      <UniqueIdentifier>{679A5DE1-D302-30CE-8489-DA2233396689}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Actions\CAction.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CAction.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CActionData.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CActionData.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CAim.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CAim.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CAttachment.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CAttachment.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_Drongo.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_Drongo.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Gun.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Gun.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Heal.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Heal.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Hide.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Hide.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Throw.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_Drongo_Throw.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CDoAction_HandGun.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CDoAction_HandGun.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CEquipment.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CEquipment.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_AirStrike.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_AirStrike.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_Bomb.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_Bomb.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_Grenade.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_Grenade.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_Obliterate.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_Obliterate.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_Path.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_Path.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Actions\CProjectile_Reckoning.cpp">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Actions\CProjectile_Reckoning.h">
+      <Filter>Source\FPS\Actions</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\BehaviorTree">
+      <UniqueIdentifier>{5FD58D05-30BF-3F09-965F-C1AF0A9F6877}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTService_Drongo.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTService_Drongo.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Action.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Action.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_AirStrike.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_AirStrike.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Curse.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Curse.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Change.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Change.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Decoy.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Decoy.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Heal.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Heal.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Hide.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Drongo_Hide.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Emotion.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_Emotion.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_MoveToLocation.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_MoveToLocation.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_SpawnPortal.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CBTTaskNode_SpawnPortal.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\BehaviorTree\CEnvQueryContext_Player.cpp">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\BehaviorTree\CEnvQueryContext_Player.h">
+      <Filter>Source\FPS\BehaviorTree</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Characters">
+      <UniqueIdentifier>{DB4A7D14-CDB7-33D0-B4A1-8FD08919C4DD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Characters\CAIController.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CAIController.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CAnimInstance.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CAnimInstance.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CEnemy.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CEnemy.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CEnemy_Decoy.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CEnemy_Decoy.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CEnemy_Drongo.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CEnemy_Drongo.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CNPlayer.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CNPlayer.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CPlayer.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CPlayer.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CSliceable.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CSliceable.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\CSliceable_Helix.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\CSliceable_Helix.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Characters\ICharacter.cpp">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Characters\ICharacter.h">
+      <Filter>Source\FPS\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Components">
+      <UniqueIdentifier>{B0A064B2-7022-38F9-93E9-8CA1858E4232}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Components\CActionComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CActionComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CBehaviorComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CBehaviorComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CBoneComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CBoneComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CFeetComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CFeetComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CMontagesComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CMontagesComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\COptionComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\COptionComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CPortalComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CPortalComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CSliceComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CSliceComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CStateComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CStateComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Components\CStatusComponent.cpp">
+      <Filter>Source\FPS\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Components\CStatusComponent.h">
+      <Filter>Source\FPS\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Notifies">
+      <UniqueIdentifier>{10BA0D03-FC27-3003-9827-459753EAA534}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Equip.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Equip.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Equip_Reverse.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Equip_Reverse.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Turn.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotifyState_Turn.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginAction.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginAction.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginReload.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginReload.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginSkill.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_BeginSkill.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_EndAction.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_EndAction.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_EndDead.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_EndDead.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_EndEmotion.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_EndEmotion.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_EndReload.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_EndReload.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_Hitted.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_Hitted.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Notifies\CAnimNotify_Roll_End.cpp">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Notifies\CAnimNotify_Roll_End.h">
+      <Filter>Source\FPS\Notifies</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Objects">
+      <UniqueIdentifier>{782412C2-208E-3C8F-B0AA-7522E0731D62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Objects\CInteract_Cure.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CInteract_Cure.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\CInteract_IK.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CInteract_IK.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\CInteract_Wall.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CInteract_Wall.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\CPortal.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CPortal.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\CPortalWall.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CPortalWall.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\CSliceableParts.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\CSliceableParts.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Objects\IInteract.cpp">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Objects\IInteract.h">
+      <Filter>Source\FPS\Objects</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Utilities">
+      <UniqueIdentifier>{761600F5-7003-3B4B-9A82-72F04AE7566C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Utilities\CHelpers.h">
+      <Filter>Source\FPS\Utilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Utilities\CLog.cpp">
+      <Filter>Source\FPS\Utilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Utilities\CLog.h">
+      <Filter>Source\FPS\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Utilities\Defines.h">
+      <Filter>Source\FPS\Utilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Widgets">
+      <UniqueIdentifier>{BA67E922-D2B4-3957-9D74-DBABB15F808F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_DamageText.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_DamageText.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_HealthBar.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_HealthBar.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_Interact.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_Interact.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_Main.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_Main.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_PlayerInfo.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_PlayerInfo.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_Select.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_Select.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_SkillSlot.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_SkillSlot.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPS\Widgets\CUserWidget_WeaponInfo.cpp">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\Widgets\CUserWidget_WeaponInfo.h">
+      <Filter>Source\FPS\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
